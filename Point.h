@@ -1,10 +1,11 @@
 // A 2-dimensional point class!
 // Coordinates are double-precision floating point.
 
-#ifndef __point_h
-#define __point_h
+#ifndef __POINT_H
+#define __POINT_H
 
 class Point {
+    
 private:
     double x, y;
 
@@ -20,6 +21,7 @@ public:
     // Accessor methods
     double getX() const;
     double getY() const;
+    
 };
 
-#endif // __point_h
+#endif // __POINT_H
