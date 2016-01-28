@@ -47,7 +47,7 @@ Point myOtherPoint(5, 3); // Calls two-argument constructor Point::Point(double,
 
 1.  Fork the [Github repository for CSCI 2312 PA1](https://github.com/ivogeorg/ucd-csci2312-pa1). This becomes your _remote_ repository, against which you will work. Then clone it to your local development environment (e.g. laptop). This becomes your _local_ repository against which you will develop. You will find the <tt>Point.h</tt> and <tt>Point.cpp</tt> files for the 2D Point class, along with a test suite and a driver file <tt>main.cpp</tt>.
 
-2.  Change the <tt>Point</tt> class to represent points in three (3) dimensions. Make sure to update the comments to match this change.
+2.  Change the <tt>Point</tt> class to represent points in three (3) dimensions. Make sure to update the comments to match this change. Implement the class in a source file <tt>Point.cpp</tt>.
 
 3.  Add a new member function to <tt>Point</tt> called <tt>distanceTo</tt>. This member function should accept as an argument a <u><tt>const Point &</tt></u> (a reference to a constant <tt>Point</tt>), and it should return a <tt>double</tt> that approximates the distance between the two points. Note that <tt>distanceTo</tt> is a _constant_ member function.
 
@@ -125,6 +125,12 @@ add_executable(ucd_csci2312_pa1 ${SOURCE_FILES})
    *   Uncomment the next test from the driver and test suite files.
    *   Repeat the procedure until all tests pass. At this time you are done with programming.
    *   Change the comments where necessary.
+
+   Note: If you see that CMake is complaining that it can't find some of its files (e.g. <tt>area.cpp</tt>), you should create them. To add them to your git _local_ repository, you need to execute the command
+   ```
+   git add area.cpp
+   ```
+   or, alternatively, in CLion, right-click on the new file, scroll down to __Git__ and then click __+ Add__.
 
 8.  Commit all code changes to your _local_ repository, then push the changes to the default __master__ branch of your Github repository (aka _remote_ repository).
 
