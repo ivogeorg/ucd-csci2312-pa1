@@ -45,7 +45,7 @@ Point myOtherPoint(5, 3); // Calls two-argument constructor Point::Point(double,
 
 ### Your Task
 
-1.  Fork the [Github repository for CSCI 2312 PA1](https://github.com/ivogeorg/ucd-csci2312-pa1). This becomes your _remote_ repository, against which you will work. Then clone it to your local development environment (e.g. laptop). This becomes your _local_ repository against which you will develop. You will find the <tt>Point.h</tt> and <tt>Point.cpp</tt> files for the 2D Point class, along with a test suite and a driver file <tt>main.cpp</tt>.
+1.  Fork the [Github repository for CSCI 2312 PA1](https://github.com/ivogeorg/ucd-csci2312-pa1). This becomes your _remote_ repository, against which you will work. Then clone it to your local development environment (e.g. laptop). This becomes your _local_ repository against which you will develop. You will find the <tt>Point.h</tt> file for the 2D Point class, along with a test suite and a driver file <tt>main.cpp</tt>.
 
 2.  Change the <tt>Point</tt> class to represent points in three (3) dimensions. Make sure to update the comments to match this change. Implement the class in a source file <tt>Point.cpp</tt>.
 
