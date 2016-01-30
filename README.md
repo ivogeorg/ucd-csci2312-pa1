@@ -140,7 +140,7 @@ add_executable(ucd_csci2312_pa1 ${SOURCE_FILES})
 
 ### Grading
 
-An autograding script will test your class on a variety of inputs and assign a grade based on the number of correct outputs. (E.g. if you get 3 out of 6 test cases correct, your correctness score will be 50%). The test suite for PA1 has __56__ tests.
+An autograding script will test your class on a variety of inputs and assign a grade based on the number of passed tests. (E.g. if your code passes 3 out of 6 test cases, your correctness score will be 50%). The test suite for PA1 has __56__ tests.
 
 * * *
 
