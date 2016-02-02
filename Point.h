@@ -15,14 +15,14 @@ public:
     Point(double x, double y, double z);    // three-argument constructor
 
     // Mutator methods
-    void setX(double newX);
-    void setY(double newY);
-	void setX(double newZ);
+	void setX(double newX) { newX = x };
+	void setY(double newY) { newY = y };
+	void setX(double newZ) { newZ = z };
 
     // Accessor methods
-    double getX() const;
-    double getY() const;
-	double getZ() const;
+	double getX() const { return x };
+	double getY() const { return y };
+	double getZ() const { return z };
     
 };
 
