@@ -4,6 +4,7 @@
 #ifndef __POINT_H
 #define __POINT_H
 
+# include <cmath>;
 class Point {
     
 private:
@@ -23,6 +24,12 @@ public:
 	double getX() const { return x };
 	double getY() const { return y };
 	double getZ() const { return z };
+
+	// Distance function
+	double distanceTo(const Point& P1; const point& P2) 
+	{
+		
+	};
     
 };
 
