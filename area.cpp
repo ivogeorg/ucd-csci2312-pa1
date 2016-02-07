@@ -14,19 +14,18 @@ using namespace std;
 
 double computeArea(const Point &a, const Point &b, const Point &c)
 {
-    double A, B, C;
-    double S;
+    double A, B, C, S, Area;
     
-    double Area;
-//
+    // get distance
     A = a.distanceTo(b);
     B = b.distanceTo(c);
     C = c.distanceTo(a);
-//
-    S = (A + B + C)/2;
-//
-//
-    Area = sqrt((S*(S-A)*(S-B)*(S-C)));
+
+    //Find S
+    S = (A + B + C)/2;                   
+    
+    // Computer Area Forumula
+    Area = sqrt((S*(S-A)*(S-B)*(S-C)));  
     
     return Area;
 }
