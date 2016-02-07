@@ -24,7 +24,7 @@ double computeArea(const Point &a, const Point &b, const Point &c)
     //Find S
     S = (A + B + C)/2;                   
     
-    // Computer Area Forumula
+    // Computer Heron's Area Forumula
     Area = sqrt((S*(S-A)*(S-B)*(S-C)));  
     
     return Area;
