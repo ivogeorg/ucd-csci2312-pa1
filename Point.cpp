@@ -1,10 +1,9 @@
-//
-//  Point.cpp
-//  PA1
-//
-//  Created by Scott Nedvesky on 2/6/16.
-//  Copyright © 2016 Scott Nedvesky. All rights reserved.
-//
+//Scott Nedvesky
+//CSC 2312
+//Homework PA1
+//Febuary 7, 2016
+//Functions to Compute Distance
+//Point.cpp
 
 #include "Point.h"
 #include <cmath>
