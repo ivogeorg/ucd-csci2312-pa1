@@ -9,11 +9,11 @@
 #include "Point.h"
 #include <cmath>
 
-Point::Point() : x(NULL), y(NULL), z(NULL)
+Point::Point()
 {
-    setX(x);
-    setY(y);
-    setZ(z);
+    x=0;
+    y=0;
+    z=0;
 }
 
 Point::Point(double newX, double newY, double newZ)
@@ -30,12 +30,12 @@ void Point::setX(double newX)
 
 void Point::setY(double newY)
 {
-    x = newY;
+    y = newY;
 }
 
 void Point::setZ(double newZ)
 {
-    x = newZ;
+    z = newZ;
 }
 
 double Point::getX() const
@@ -53,14 +53,15 @@ double Point::getZ() const
     return z;
 }
 
-double Point::distanceTo(const Point &newp) const
+double Point::distanceTo(const Point &other) const
 {
-    double distx = newp.getX() -x;
-    double disty = newp.getY() -y;
-    double distz = newp.getZ() -z;
+    double distx = other.getX() -x;
+    double disty = other.getY() -y;
+    double distz = other.getZ() -z;
     double total;
     
-    total = sqrt((distx*distx)+(disty*disty)+(distz*distz));
+    total = sqrt(pow(distx, 2) + pow(disty, 2) + pow(distz, 2));
+    
     
     return total;
     
