@@ -1,10 +1,7 @@
-//
-//  area.cpp
-//  PA1
-//
-//  Created by Scott Nedvesky on 2/6/16.
-//  Copyright © 2016 Scott Nedvesky. All rights reserved.
-//
+//CSC 2312
+//Homework PA1
+//Febuary 7, 2016
+//Function to Compute Area
 
 #include "Point.h"
 #include <iostream>
