@@ -24,7 +24,7 @@ public:
     double getY() const;
     double getZ() const;
     
-    // DistanceTo algorith
+    // DistanceTo algorithm
     double distanceTo(const Point &other) const;
     
 };
