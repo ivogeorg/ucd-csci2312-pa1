@@ -4,6 +4,14 @@ _working with objects_
 
 * * *
 
+Brian Pina //////// My three dimensional class gets threes points put in variables labled x,y,z this class has a fucntion that passses three arguments in the class constructor i also added setz and getz functions so that the Z variable can be mutated and aletered distance to function holds to passes of the the point class where we use the distanve formula to find the sitance between two points
+
+area.cpp holds a computeArea function that will comopute the area of these points based in herons formula which is based in triangles using three points ///////////// we use the point class to use 3 points and we use the passes from the point class to plug in the values to find the semi perimeter from the semiperimeter value we use it to compute the final area
+
+working with objects
+
+
+
 C++ lets us program with _objects_. We describe objects in C++ by declaring and defining _classes_. We _declare_ our class's structure in a header file, just like in C, and _define_ it (that is, write the code that actually does the work) in a corresponding source code file.
 
 Here is a sample header file <tt>Point.h</tt> that describes an object that represents a point in two-dimensional Euclidean space:
