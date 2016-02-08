@@ -1,35 +1,26 @@
-// A 3-dimensional point class!
+// A 2-dimensional point class!
 // Coordinates are double-precision floating point.
 
 #ifndef __POINT_H
 #define __POINT_H
 
-# include <cmath>;
 class Point {
     
 private:
-    double x, y, z;
+    double x, y;
 
 public:
     // Constructors
     Point();                      // default constructor
-    Point(double x, double y, double z);    // three-argument constructor
+    Point(double x, double y);    // two-argument constructor
 
     // Mutator methods
-	void setX(double newX) { newX = x };
-	void setY(double newY) { newY = y };
-	void setX(double newZ) { newZ = z };
+    void setX(double newX);
+    void setY(double newY);
 
     // Accessor methods
-	double getX() const { return x };
-	double getY() const { return y };
-	double getZ() const { return z };
-
-	// Distance function
-	double distanceTo(const Point& P1; const point& P2) 
-	{
-		
-	};
+    double getX() const;
+    double getY() const;
     
 };
 
