@@ -20,7 +20,7 @@ public:
     void setX(double newX);
     void setY(double newY);
     void setZ(double newZ);
-
+    
     // Accessor methods
     double getX() const;
     double getY() const;
