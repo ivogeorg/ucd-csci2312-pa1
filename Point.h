@@ -24,7 +24,8 @@ public:
     double getY() const;
     double getZ() const;
 
-    //
+    // New member function for #3
+    double distanceTo(const Point &other) const;
 };
 
 #endif // __POINT_H
