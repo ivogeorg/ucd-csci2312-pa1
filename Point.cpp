@@ -2,6 +2,8 @@
 // Created by HosZul on 2/7/2016.
 //
 
+#include<iostream>
+#include <fstream>
 #include <cmath>
 #include "Point.h"
 
@@ -54,6 +56,6 @@ double Point::getZ() const
 // Distance for Task 2
 double Point::distanceTo(const Point &other) const
     {
-      // Heron's Formula
+      // Formula for distance
         return sqrt(pow(x-other.getX(),2)+ pow(y-other.getY(),2)+pow(z-other.getZ(),2));
     }
